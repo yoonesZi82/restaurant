@@ -74,16 +74,8 @@ body {
 }
 
 .transition-effect {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 0;
-  height: 0;
-  border-radius: 50%;
   background: var(--color);
-  z-index: 9999;
-  pointer-events: none; /* جلوگیری از تاثیر بر تعامل */
+  pointer-events: none;
   animation: expand 1s ease-out forwards;
 }
 
