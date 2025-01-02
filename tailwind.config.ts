@@ -11,6 +11,16 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "0.5rem",
+          sm: "0.5rem",
+          lg: "1rem",
+          xl: "1rem",
+          "2xl": "1rem",
+        },
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
